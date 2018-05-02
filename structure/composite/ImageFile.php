@@ -8,7 +8,7 @@
 
 declare(strict_types = 1);
 
-namespace structure\compositePattern;
+namespace structure\composite;
 
 class ImageFile extends Filesystem
 {
