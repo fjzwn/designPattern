@@ -30,4 +30,4 @@ $subDir = new Dir('source');
 $dir->add($subDir);
 $subDir->add(new TextFile('text2.txt'));
 
-echo $dir->getName() . "大小:{$dir->getSize()}\n";
+echo $dir->getName() . "大小:{$dir->getSize()}" . PHP_EOL;

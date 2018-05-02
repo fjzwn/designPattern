@@ -20,6 +20,6 @@ class WechatPay
 {
     public function pay()
     {
-        echo "使用微信支付\n";
+        echo "使用微信支付" . PHP_EOL;
     }
 }

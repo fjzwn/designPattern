@@ -20,6 +20,6 @@ class AliPay
 {
     public function pay()
     {
-        echo "使用支付宝支付\n";
+        echo "使用支付宝支付" . PHP_EOL;
     }
 }
