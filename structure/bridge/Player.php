@@ -11,7 +11,7 @@ declare(strict_types = 1);
 namespace structure\bridge;
 
 /**
- * 抽象画角色
+ * 抽象化角色
  *
  * Class Player
  * @package structure\bridge
