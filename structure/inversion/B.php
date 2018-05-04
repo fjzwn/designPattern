@@ -13,15 +13,17 @@ namespace structure\inversion;
 class B
 {
     private $a;
+    private $people;
 
-    public function __construct(A $a)
+    public function __construct(A $a, $people = 'my')
     {
         $this->a = $a;
+        $this->people = $people;
     }
 
     public function test()
     {
         $this->a->test();
-        echo __METHOD__ . '|';
+        echo __METHOD__ . '|' . "普通参数:{$this->people}|";
     }
 }
