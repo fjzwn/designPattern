@@ -16,7 +16,9 @@ $factory = new FlyWeightFactory();
 $iPhone = $factory->getPhone('structure\flyWeight\Iphone');
 $iPhone->create();
 
-$miPhone = new MiPhone();
+$miPhone = $factory->getPhone('structure\flyWeight\MiPhone');
 $miPhone->create();
+
+
 
 
